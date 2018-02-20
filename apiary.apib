@@ -1,9 +1,21 @@
 FORMAT: 1A
 HOST: http://polls.apiblueprint.org/
 
-# umlsadp
+# um-lsa-dp
 
 Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Profile Requests [/profile]
+
+### Get user profile [GET]
+
++ Response 200 (application/json)
+
+        {
+            "firstName": "Mister",
+            "lastName": "Madness"
+        }
+
 
 ## Questions Collection [/questions]
 
